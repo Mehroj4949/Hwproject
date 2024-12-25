@@ -715,8 +715,20 @@ video {
   clear: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .box-border {
@@ -828,6 +840,18 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .flex-shrink {
@@ -1346,6 +1370,14 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
