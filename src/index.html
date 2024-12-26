@@ -1,41 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
-    <header>
-        <nav class="w-[90%] m-auto mt-10 flex justify-between">
-          <img src="./лого.png" alt="">
-          <div class="flex gap-[40px] mt-5">
-            <p>Обо мне</p>
-            <p>Занятия</p>
-            <p>Запись</p>
-          </div>
-        </nav>
-        <section >
-          <aside  class=" w-[90%] m-auto flex justify-between align-middle">
-            <div>
-                <img src="./Фигуры за гитаристом.png" alt="">
-                <img src="./Фото гитариста.png" alt="" class="absolute bottom-[-20px]">
 
-            </div>
-            <div class="">
-                <img src="./Иконки.png" alt="">
-                <h1 class="text-[72px] font-bold">Я Виктор</h1>
-                <p>Репетитор игры на гитаре с семилетним <br> опытом преподавания</p><br>
-                <span class="px-[20px] py-[15px] rounded-[30px] border-2 border-solid border-black bg-[#F28B64] text-white mt-10">Забронировать урок</span>
-                <span>Есть
-                  вопросы?</span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./output.css">
+  <style> .vertical-rl { writing-mode: vertical-rl; } .vertical-lr { writing-mode: vertical-lr; } </style>
+</head>
+
+<body>
+  <header class="bg-[#F0F0F0]">
+    <nav class="w-[90%] m-auto mt-10 flex justify-between">
+      <img src="./лого.png" alt="">
+      <div class="flex gap-[40px] mt-5">
+        <p>Обо мне</p>
+        <p>Занятия</p>
+        <p>Запись</p>
+      </div>
+    </nav>
+    <div class="bg-[#F0F0F0]">
+
+      <section class="w-[90%] m-auto h-[609px] flex justify-between bg-[#F0F0F0]">
+        <aside class="w-[483px] flex items-center mt-10">
+          <img src="./Фигуры за гитаристом.png" alt="">
+          <img src="./Фото гитариста.png" alt="" class="absolute bottom-10">
+        </aside>
+        <aside class="flex items-center">
+          <div class="">
+            <img src="./Иконки.png" alt="">
+            <h1 class="text-[72px] font-bold">Я Виктор</h1>
+            <p>Репетитор игры на гитаре с семилетним <br> опытом преподавания</p><br>
+            <span class=" px-[30px] py-[15px] text-center bg-[#F28B64] text-white rounded-lg">
+              Забронировать
+              урок
+            </span>
+            
+            <span>Есть
+              вопросы?</span>
             </div>
           </aside>
         </section>
-    </header>
-    <main>
-      
-    </main>
+      </div>
+      </header>
+  <main class="w-[90%] m-auto mt-[300px]">
+    <h1 class="text-[72px] font-bold">Преподаю</h1><br>
+    <section class="flex justify-between">
+      <article class="w-[360px] h-[360px] flex gap-5 bg-[#E2E2E2] rounded-lg pt-10">
+        <img src="./Электро-гитара 1.png" alt="">
+        <p class="text-[36px] font-bold vertical-rl text-center">Электро <br> гитара</p>
+      </article>
+      <article class="w-[360px] h-[360px] flex gap-5 bg-[#F28B64] rounded-lg pt-10">
+        <img src="./Акустика-гитара 1.png" alt="">
+        <p class="text-[36px] font-bold vertical-rl text-center">Акустическая <br>
+          гитара</p>
+      </article>
+      <article class="w-[360px] h-[360px] flex gap-5 bg-[#5290EA] rounded-lg pt-10">
+        <img src="./Укулелли-гитара 1.png" alt="">
+        <p class="text-[36px] font-bold vertical-rl text-center">Укулеле <br>
+          гитара</p>
+      </article>
+    </section>
+  </main>
 </body>
+
 </html>
